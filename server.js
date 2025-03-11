@@ -18,6 +18,7 @@ app.post('/submit', (req, res) => {
   const { name, email, age } = req.body;
 
   // Process form data (output to terminal)
+  console.log(`Received form data:`);
   console.log('\nForm Data Submitted:');
   console.log(`Name: ${name}`);
   console.log(`Email: ${email}`);
